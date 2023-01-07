@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Favorite Pet</title>
+</head>
+
+<body>
+  <section id="header" class="header">
+    <div class="container">
+      <div class="burger__menu">
+        <ul class="burger__list">
+          <a href="#header" class="burger__link">
+            <li>Главная</li>
+          </a>
+          <a href="#reason" class="burger__link">
+            <li>Почему мы</li>
+          </a>
+          <a href="#product" class="burger__link">
+            <li>Каталог</li>
+          </a>
+          <a href="#gallery" class="burger__link">
+            <li>Галерея</li>
+          </a>
+          <a href="#form" class="burger__link">
+            <li>Обратная связь</li>
+          </a>
+        </ul>
+        <div class="header__bbasket">
+          <a href="#"><img src="image/Header/IconBasket.svg" alt="IconBasket" class="bbasket__icon"></a>
+          <p class="bbasket__summ"></p>
+        </div>
+        <div class="burger__exit">
+          <img src="image/Header/BurgerExit.svg" alt="BurgerExit" class="exit__icon">
+        </div>
+      </div>
+      <div class="header__inner">
+        <a href="#"><img src="image/Header/Logo.svg" alt="Logo" class="header__logo"></a>
+        <div class="header__menu">
+          <ul class="menu__list">
+            <a href="#header" class="menu__link">
+              <li>Главная</li>
+            </a>
+            <a href="#reason" class="menu__link">
+              <li>Почему мы</li>
+            </a>
+            <a href="#product" class="menu__link">
+              <li>Каталог</li>
+            </a>
+            <a href="#gallery" class="menu__link">
+              <li>Галерея</li>
+            </a>
+            <a href="#form" class="menu__link">
+              <li>Обратная связь</li>
+            </a>
+          </ul>
+        </div>
+        <div class="header__basket">
+          <a href="#"><img src="image/Header/IconBasket.svg" alt="IconBasket" class="basket__icon"></a>
+          <p class="basket__summ"></p>
+        </div>
+      </div>
+      <div class="burger_icon">
+        <img src="image/Header/BurgerIcon.svg" alt="BurgerIcon">
+      </div>
+      <div class="order">
+        <form action="#" class="order__form">
+          <p class="order__title">Заказ питомца</p>
+          <input required placeholder="Введите имя" type="text" class="form__input">
+          <input required placeholder="Введите Email" type="email" class="form__input">
+          <input required placeholder="Введите сообщение" type="text" class="form__input">
+          <button class="form__button" type="submit">Отправить</button>
+          <p class="order__content">Скоро Вам позвонит наш сотрудник</p>
+          <img src="image/Header/BurgerExit.svg" alt="OrgerExit" class="order__icon">
+        </form>
+        <div class="order__overlay"></div>
+      </div>
+    </div>
+  </section>
+  <section id="home" class="home">
+    <div class="container">
+      <div class="home__inner">
+        <div class="home__offer">
+          <h1 class="offer__title">Твой новый питомец с доставкой на дом</h1>
+          <p class="offer__subtitle">Онлайн-магазин приюта домашних<br>
+            животных доставит твоего нового питомца<br>
+            уже сегодня!</p>
+          <button class="offer__button">Сделать заказ</button>
+        </div>
+        <div class="home__pet">
+          <img src="image/Home/DogAndCat.png" alt="Dog And Cat" class="pet__img">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="reason" class="reason">
+    <div class="container">
+      <div class="reason__inner">
+        <p class="reason__title">Почему стоит выбирать<br>наших питомцев</p>
+        <div class="rcard__inner">
+          <div class="reason__card">
+            <img src="image/Reason/IconHelp.svg" alt="IconHelp" class="rcard__img">
+            <div class="rcard__content">
+              <p class="rcard__title">Помощь</p>
+              <p class="rcard__subtitle">Вы даёте другим животным<br>
+                шанс на жизнь</p>
+            </div>
+          </div>
+          <div class="reason__card">
+            <img src="image/Reason/IconJoy.svg" alt="IconJoy" class="rcard__img">
+            <div class="rcard__content">
+              <p class="rcard__title">Радость</p>
+              <p class="rcard__subtitle">Питомец обязательно<br>принесёт радость в дом</p>
+            </div>
+          </div>
+          <div class="reason__card">
+            <img src="image/Reason/IconEconomy.svg" alt="IconEconomy" class="rcard__img">
+            <div class="rcard__content">
+              <p class="rcard__title">Экономия</p>
+              <p class="rcard__subtitle">В намем приюте самые<br>дешёвые цены на питомцев</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section id="product" class="product">
+    <div class="container">
+      <div class="product__inner">
+        <h1 class="product__title">Каталог питомцев</h1>
+        <div class="product__card">
+          <div class="pcard">
+            <div class="pcard__ageposition">
+              <p class="pcard__age">2 месяца</p>
+            </div>
+            <img src="image/Product/Chihuahua.png" alt="Chihuahua.png" class="pcard__img">
+            <p class="pcard__title">Чихуахуа</p>
+            <p class="pcard__subtitle">Милый друг с<br>характером добермана</p>
+            <p class="pcard__price">15000 р.</p>
+            <div class="pcard__button">
+              <button class="pbutton__buy">Купить</button>
+            </div>
+          </div>
+          <div class="pcard">
+            <div class="pcard__ageposition">
+              <p class="pcard__age">6 месяцев</p>
+            </div>
+            <img src="image/Product/MaineCoon.png" alt="MaineCoon.png" class="pcard__img">
+            <p class="pcard__title">Мейн-кун</p>
+            <p class="pcard__subtitle">Милая и красивая<br>подруга</p>
+            <p class="pcard__price">30000 р.</p>
+            <div class="pcard__button">
+              <button class="pbutton__buy">Купить</button>
+            </div>
+          </div>
+          <div class="pcard">
+            <div class="pcard__ageposition">
+              <p class="pcard__age">2 месяца</p>
+            </div>
+            <img src="image/Product/Cockatiel.png" alt="Cockatiel.png" class="pcard__img">
+            <p class="pcard__title">Корелла</p>
+            <p class="pcard__subtitle">Весёлый и всегда<br>дружелюбный друг</p>
+            <p class="pcard__price">5000 р.</p>
+            <div class="pcard__button">
+              <button class="pbutton__buy">Купить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="gallery__inner">
+        <h1 class="gallery__title">Наши фотографии</h1>
+        <div class="gallery__image">
+          <div class="gallery__column">
+            <div><img src="image/Gallery/1.png" alt="" class="gallery__img"></div>
+            <div><img src="image/Gallery/2.png" alt="" class="gallery__img"></div>
+            <div><img src="image/Gallery/3.png" alt="" class="gallery__img"></div>
+          </div>
+          <div class="gallery__column">
+            <div><img src="image/Gallery/4.png" alt="" class="gallery__img"></div>
+            <div><img src="image/Gallery/5.png" alt="" class="gallery__img"></div>
+            <div><img src="image/Gallery/6.png" alt="" class="gallery__img"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="form" class="form">
+    <div class="container">
+      <div class="form__inner">
+        <h1 class="form__title">Обратная связь</h1>
+        <p class="form__subtitle">Напишите соощение и получите ответ<br>в течении 5 часов</p>
+        <form action="#" class="form__form">
+          <input required placeholder="Введите имя" type="text" class="form__input">
+          <input required placeholder="Введите Email" type="email" class="form__input">
+          <input required placeholder="Введите сообщение" type="text" class="form__input">
+          <button class="form__button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+
+</html>
